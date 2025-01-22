@@ -1,0 +1,13 @@
+{ 
+    "dwayne" : {
+        "full name" : "Dwayne Johnson",
+        "other names" : ["The Rock", "Flex Kavana", "Rocky Maiva"],
+        "wikipedia" : "https://en.wikipedia.org/wiki/Dwayne_Johnson",
+        "born" : 1972,
+        "place of birth" : "Hayward, Callifornia",
+        "height_inches" : 77,
+        "author" : false,
+        "tv show" : null
+    }  
+}
+    
