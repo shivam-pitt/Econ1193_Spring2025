@@ -16,7 +16,8 @@
         "born" : 1959,
         "place of birth" : "Blackpool, UK",
         "height_inches" : 70,
-        "instruments" : ["vocals","guitar"]
+        "instruments" : ["vocals","guitar"],
+        "married" : true
     }
 }
     
