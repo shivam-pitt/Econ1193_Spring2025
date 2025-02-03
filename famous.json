@@ -8,6 +8,10 @@
         "height_inches" : 77,
         "author" : false,
         "tv show" : null
-    }  
+    },
+    "new_person" : {
+        "full name" : "name1 name 2",
+        "TV shows" : ["show 1","show 2"],
+    }
 }
     
