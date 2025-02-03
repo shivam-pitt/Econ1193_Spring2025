@@ -8,6 +8,16 @@
         "height_inches" : 77,
         "author" : false,
         "tv show" : null
-    }  
+    },
+    "robert_smith" : {
+        "full name" : "Robert Smith",
+        "TV shows" : null,
+        "Band" : "The Cure",
+        "born" : 1959,
+        "place of birth" : "Blackpool, UK",
+        "height_inches" : 70,
+        "instruments" : ["vocals","guitar"],
+        "married" : true
+    }
 }
     
