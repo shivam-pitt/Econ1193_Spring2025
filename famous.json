@@ -27,6 +27,18 @@
         "born" : 1944,
         "married" : true,
         "children" : 3
-    } 
+    },
+    "LeBron_James" : {
+        "full name" : "LeBron Raymone James",
+        "other names" : ["King James", "Chosen One", "L-Train"],
+        "married" : true,
+        "wikipedia" : "https://en.wikipedia.org/wiki/LeBron_James"
+        "place of birth" : "Akron, Ohio",
+        "job" : "NBA Player",
+        "teams" : ["Cleveland Cavaliers", "Miami Heat", "Los Angeles Lakers"],
+        "championships" : 4,
+        "mvp_awards" : 4,
+        "music_albums" : null
+    }
 }
     
