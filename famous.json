@@ -9,9 +9,17 @@
         "author" : false,
         "tv show" : null
     },
-    "new_person" : {
-        "full name" : "name1 name2",
-        "TV shows" : "show1", "show2",
+    "kendrick" : {
+        "full name" : "Kendrick Lamar",
+        "other names" : ["K.Dot"],
+        "wikipedia" : "https://en.wikipedia.org/wiki/Kendrick_Lamar",
+        "born" : 1987,
+        "grammy winner": true,
+        "tv show" : null,
+        "albums" : {
+            "first" : "Section.80",
+            "latest" : "GNX"
+        }
     }
 }
     
