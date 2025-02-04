@@ -18,6 +18,15 @@
         "height_inches" : 70,
         "instruments" : ["vocals","guitar"],
         "married" : true
-    }
+    },
+    "danny_devito" : {
+        "full name" : "Daniel Michael DeVito Jr",
+        "Movies" : ["Matilda", "The Lorax", "Taxi"],
+        "height_inches" : 58,
+        "books" : null,
+        "born" : 1944,
+        "married" : true,
+        "children" : 3
+    } 
 }
     
