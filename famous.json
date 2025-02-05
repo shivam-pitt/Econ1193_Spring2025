@@ -39,6 +39,16 @@
         "championships" : 4,
         "mvp_awards" : 4,
         "music_albums" : null
+    },
+    "michael" : {
+        "full name" : "Michael Joseph Jackson",
+        "other names" : ["King of Pop", "MJ"],
+        "wikipedia" : "https://en.wikipedia.org/wiki/Michael_Jackson",
+        "born" : 1958,
+        "place of birth" : "Gary, Indiana",
+        "height_inches" : 69,
+        "author" : true,
+        "tv show" : null
     }
 }
     
