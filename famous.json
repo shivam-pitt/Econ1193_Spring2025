@@ -19,7 +19,59 @@
         "albums" : {
             "first" : "Section.80",
             "latest" : "GNX"
-        }
-    }
+                  }
+        },
+    "robert_smith" : {
+        "full name" : "Robert Smith",
+        "TV shows" : null,
+        "Band" : "The Cure",
+        "born" : 1959,
+        "place of birth" : "Blackpool, UK",
+        "height_inches" : 70,
+        "instruments" : ["vocals","guitar"],
+        "married" : true
+    },
+    "danny_devito" : {
+        "full name" : "Daniel Michael DeVito Jr",
+        "Movies" : ["Matilda", "The Lorax", "Taxi"],
+        "height_inches" : 58,
+        "books" : null,
+        "born" : 1944,
+        "married" : true,
+        "children" : 3
+    },
+    "LeBron_James" : {
+        "full name" : "LeBron Raymone James",
+        "other names" : ["King James", "Chosen One", "L-Train"],
+        "married" : true,
+        "wikipedia" : "https://en.wikipedia.org/wiki/LeBron_James",
+        "place of birth" : "Akron, Ohio",
+        "job" : "NBA Player",
+        "teams" : ["Cleveland Cavaliers", "Miami Heat", "Los Angeles Lakers"],
+        "championships" : 4,
+        "mvp_awards" : 4,
+        "music_albums" : null
+    },
+    "michael" : {
+        "full name" : "Michael Joseph Jackson",
+        "other names" : ["King of Pop", "MJ"],
+        "wikipedia" : "https://en.wikipedia.org/wiki/Michael_Jackson",
+        "born" : 1958,
+        "place of birth" : "Gary, Indiana",
+        "height_inches" : 69,
+        "author" : true,
+        "tv show" : null
+    },
+    "zendaya" : {
+        "full name" : "Zendaya Maree Stoermer Coleman",
+        "wikipedia" : "https://en.wikipedia.org/wiki/Zendaya",
+        "born" : 1996,
+        "place of birth" : "Oakland, California",
+        "height_inches" : 70,
+        "movies" : ["Challengers", "Dune"],
+        "tv shows" : ["Euphoria", "Shake it Up"],
+        "married" : false
+        "children" : null
+      }
 }
     
