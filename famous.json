@@ -20,7 +20,7 @@
             "first" : "Section.80",
             "latest" : "GNX"
                   }
-        },
+    },
     "robert_smith" : {
         "full name" : "Robert Smith",
         "TV shows" : null,
@@ -74,39 +74,39 @@
         "children" : null
       },
     "Shaquille" :{
-    "full name": "Shaquille O'Neal", 
-    "Other names": ["Shaq", "Big Shamrock"],
-    "Wikipedia": "https://en.wikipedia.org/wiki/Shaquille_O%27Neal",
-    "born" : 1972, 
-    "place of birth" : "Newark, New Jersey",
-    "height_inches": 85,
-    "actor" : true, 
-    "NFL" : null    
- },
-"elon_musk": {
-    "full name": "Elon Reeve Musk",
-    "other names": ["Iron Man", "Elon"],
-    "married": false,
-    "wikipedia": "https://en.wikipedia.org/wiki/Elon_Musk",
-    "place of birth": "Pretoria, South Africa",
-    "job": "Entrepreneur",
-    "companies": ["Tesla", "SpaceX", "Neuralink", "The Boring Company"],
-    "notable_achievements": ["Founded Zip2", "Co-founded PayPal", "CEO of Tesla", "Founded SpaceX"],
-    "children": 10
+        "full name": "Shaquille O'Neal", 
+        "Other names": ["Shaq", "Big Shamrock"],
+        "Wikipedia": "https://en.wikipedia.org/wiki/Shaquille_O%27Neal",
+        "born" : 1972, 
+        "place of birth" : "Newark, New Jersey",
+        "height_inches": 85,
+        "actor" : true, 
+        "NFL" : null    
     },
+    "elon_musk": {
+        "full name": "Elon Reeve Musk",
+        "other names": ["Iron Man", "Elon"],
+        "married": false,
+        "wikipedia": "https://en.wikipedia.org/wiki/Elon_Musk",
+        "place of birth": "Pretoria, South Africa",
+        "job": "Entrepreneur",
+        "companies": ["Tesla", "SpaceX", "Neuralink", "The Boring Company"],
+        "notable_achievements": ["Founded Zip2", "Co-founded PayPal", "CEO of Tesla", "Founded SpaceX"],
+        "children": 10
+        },
     "björk" : {
         "full name" : "Björk Guðmundsdóttir",
         "genres" : ["electronia","trip hop","avant-garde pop"],
         "wikipedia" : "https://en.wikipedia.org/wiki/Bj%C3%B6rk",
         "born" : 1965,
         "place of birth": "Reykjavík, Iceland",
-        "mobies" : ["Dancer in the Dark", "The Northman"]
+        "mobies" : ["Dancer in the Dark", "The Northman"],
         "grammy winner" : null,
-        "produer" : true
+        "produer" : true,
         "albums" : {
             "first" : "Debut",
-            "latest" : "Fossora"
+            "latest" : "Fossora",
             "most acclaimed" : "Homogenic"
-     }
-}
-    
+        }
+    }
+}   
