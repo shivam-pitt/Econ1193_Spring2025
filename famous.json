@@ -81,7 +81,18 @@
     "place of birth" : "Newark, New Jersey",
     "height_inches": 85,
     "actor" : true, 
-    "NFL" : null
-    }
+    "NFL" : null    
+ },
+"elon_musk": {
+    "full name": "Elon Reeve Musk",
+    "other names": ["Iron Man", "Elon"],
+    "married": false,
+    "wikipedia": "https://en.wikipedia.org/wiki/Elon_Musk",
+    "place of birth": "Pretoria, South Africa",
+    "job": "Entrepreneur",
+    "companies": ["Tesla", "SpaceX", "Neuralink", "The Boring Company"],
+    "notable_achievements": ["Founded Zip2", "Co-founded PayPal", "CEO of Tesla", "Founded SpaceX"],
+    "children": 10
+}
 }
     
