@@ -93,6 +93,20 @@
     "companies": ["Tesla", "SpaceX", "Neuralink", "The Boring Company"],
     "notable_achievements": ["Founded Zip2", "Co-founded PayPal", "CEO of Tesla", "Founded SpaceX"],
     "children": 10
-}
+    },
+    "björk" : {
+        "full name" : "Björk Guðmundsdóttir",
+        "genres" : ["electronia","trip hop","avant-garde pop"],
+        "wikipedia" : "https://en.wikipedia.org/wiki/Bj%C3%B6rk",
+        "born" : 1965,
+        "place of birth": "Reykjavík, Iceland",
+        "mobies" : ["Dancer in the Dark", "The Northman"]
+        "grammy winner" : null,
+        "produer" : true
+        "albums" : {
+            "first" : "Debut",
+            "latest" : "Fossora"
+            "most acclaimed" : "Homogenic"
+     }
 }
     
