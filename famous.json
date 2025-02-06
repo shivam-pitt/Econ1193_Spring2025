@@ -9,6 +9,18 @@
         "author" : false,
         "tv show" : null
     },
+    "kendrick" : {
+        "full name" : "Kendrick Lamar",
+        "other names" : ["K.Dot"],
+        "wikipedia" : "https://en.wikipedia.org/wiki/Kendrick_Lamar",
+        "born" : 1987,
+        "grammy winner": true,
+        "tv show" : null,
+        "albums" : {
+            "first" : "Section.80",
+            "latest" : "GNX"
+                  }
+        },
     "robert_smith" : {
         "full name" : "Robert Smith",
         "TV shows" : null,
@@ -60,6 +72,6 @@
         "tv shows" : ["Euphoria", "Shake it Up"],
         "married" : false
         "children" : null
-    }
+      }
 }
     
