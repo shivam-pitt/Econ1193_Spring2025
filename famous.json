@@ -72,6 +72,16 @@
         "tv shows" : ["Euphoria", "Shake it Up"],
         "married" : false,
         "children" : null
-      }
+      },
+    "Shaquille" :{
+    "full name": "Shaquille O'Neal", 
+    "Other names": ["Shaq", "Big Shamrock"],
+    "Wikipedia": "https://en.wikipedia.org/wiki/Shaquille_O%27Neal",
+    "born" : 1972, 
+    "place of birth" : "Newark, New Jersey",
+    "height_inches": 85,
+    "actor" : true, 
+    "NFL" : null
+    }
 }
     
