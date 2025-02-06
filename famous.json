@@ -49,6 +49,17 @@
         "height_inches" : 69,
         "author" : true,
         "tv show" : null
+    },
+    "zendaya" : {
+        "full name" : "Zendaya Maree Stoermer Coleman",
+        "wikipedia" : "https://en.wikipedia.org/wiki/Zendaya",
+        "born" : 1996,
+        "place of birth" : "Oakland, California",
+        "height_inches" : 70,
+        "movies" : ["Challengers", "Dune"],
+        "tv shows" : ["Euphoria", "Shake it Up"],
+        "married" : false
+        "children" : null
     }
 }
     
