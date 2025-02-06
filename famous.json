@@ -70,7 +70,7 @@
         "height_inches" : 70,
         "movies" : ["Challengers", "Dune"],
         "tv shows" : ["Euphoria", "Shake it Up"],
-        "married" : false
+        "married" : false,
         "children" : null
       }
 }
