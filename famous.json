@@ -8,6 +8,18 @@
         "height_inches" : 77,
         "author" : false,
         "tv show" : null
+    },  
+    "DiCaprio" : {
+        "full name" : "Leonardo DiCaprio",
+        "other names" : ["DiCaprio", "Leo"],
+        "wikipedia" : "https://en.wikipedia.org/wiki/Leonardo_DiCaprio",
+        "born" : 1974,
+        "place of birth" : "Los Angeles, California",
+        "height_inches" : 72,
+        "author" : false,    
+        "tv show" : null,
+        "# of movies" : 59,
+        "top movies" : ["Titanic", "Django Unchained", "Wolf of Wall Street", "Once Upon a Time... in Hollywood"]
     },
     "kendrick" : {
         "full name" : "Kendrick Lamar",
@@ -116,7 +128,7 @@
         "place of birth" : "Pewaukee, Wisconsin",
         "height_inches" : 76,
         "weight_pounds" : 252,
-        "team" : "Pittsburgh Steelers"
+        "team" : "Pittsburgh Steelers",
         "position" : "Linebacker"
     }
     
