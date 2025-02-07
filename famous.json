@@ -8,7 +8,7 @@
         "height_inches" : 77,
         "author" : false,
         "tv show" : null
-    }  
+    },  
     "DiCaprio" : {
         "full name" : "Leonardo DiCaprio",
         "other names" : ["DiCaprio", "Leo"],
@@ -17,7 +17,9 @@
         "place of birth" : "Los Angeles, California",
         "height_inches" : 72,
         "author" : false,    
-        "tv show" : null
+        "tv show" : null,
+        "# of movies" : 59,
+        "top movies" : ["Titanic", "Wolf of Wall Street", "Inception", "Shutter Island"],
     }
 }
     
