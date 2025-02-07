@@ -9,5 +9,15 @@
         "author" : false,
         "tv show" : null
     }  
+    "DiCaprio" : {
+        "full name" : "Leonardo DiCaprio",
+        "other names" : ["DiCaprio", "Leo"],
+        "wikipedia" : "https://en.wikipedia.org/wiki/Leonardo_DiCaprio",
+        "born" : 1974,
+        "place of birth" : "Los Angeles, California",
+        "height_inches" : 72,
+        "author" : false,    
+        "tv show" : null
+    }
 }
     
