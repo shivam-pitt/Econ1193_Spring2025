@@ -108,5 +108,16 @@
             "latest" : "Fossora",
             "most acclaimed" : "Homogenic"
                     }
-        }
+        },
+    "TJ_Watt" : {
+        "full name" : "Trent Jordan Watt",
+        "wikipedia" : "https://en.wikipedia.org/wiki/T._J._Watt",
+        "born" : 1994,
+        "place of birth" : "Pewaukee, Wisconsin",
+        "height_inches" : 76,
+        "weight_pounds" : 252,
+        "team" : "Pittsburgh Steelers"
+        "position" : "Linebacker"
+    }
+    
 }   
