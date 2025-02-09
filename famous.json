@@ -10,4 +10,16 @@
         "tv show" : null
     }  
 }
-    
+
+{ 
+    "lebron" : {
+        "full name" : "LeBron Raymone James ",
+        "other names" : ["King James", "Captain LeMerica", "Chosen One"],
+        "wikipedia" : "https://en.wikipedia.org/wiki/LeBron_James",
+        "born" : 1984,
+        "place of birth" : "Akron, Ohio",
+        "height_inches" : 81,
+        "author" : false,
+        "tv show" : "The LeBrons"
+    }
+}
