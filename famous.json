@@ -131,6 +131,18 @@
         "team" : "Pittsburgh Steelers",
         "position" : "Linebacker"
     },
+    "Matthew" : {
+        "full name" : "Matthew David McConaughey",
+        "wikipedia" : "https://en.wikipedia.org/wiki/Matthew_McConaughey",
+        "born" : 1969,
+        "place of birth" : "Uvalde, Texas",
+        "movies" : ["The Wedding Planner", "How to Loose a Guy in 10 days", "Interstellar", "The Gentlemen"],
+        "first_breakthrough_movie": "Dazed and Confused",
+        "spouse": "Camila Alves",
+        "children": 3,
+        "singer": false,
+        "song" : null
+    },        
     "John_Denver" : {
         "full name" : "Henry John Deutschendorf Jr.",
         "wikipedia" : "https://en.wikipedia.org/wiki/John_Denver",
