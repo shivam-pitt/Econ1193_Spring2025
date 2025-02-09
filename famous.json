@@ -164,5 +164,18 @@
         "best albums" : ["Illmatic", "It Was Written", "King's Disease II", "Magic"],
         "wife" : null,
         "studio albums" : 17,
+    },
+    "Weeknd" : {
+            "full name": "Abel Makkonen Tesfaye",
+            "other names": ["The Noise", "Kin Kane"],
+            "wikipedia": "https://en.wikipedia.org/wiki/The_Weeknd",
+            "born": "1990",
+            "place of birth": "Toronto, Ontario, Canada",
+            "height_inches": "68",
+            "genre":"Pop, R&B, Alt",
+            "label": "XO, Republic",
+            "married": false,
+            "website": "theweeknd.com",
+            "Most famous song": "Blinding Lights"
     }
 }   
