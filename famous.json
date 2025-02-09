@@ -142,6 +142,17 @@
         "children": 3,
         "singer": false,
         "song" : null
-    }        
-    
+    },        
+    "John_Denver" : {
+        "full name" : "Henry John Deutschendorf Jr.",
+        "wikipedia" : "https://en.wikipedia.org/wiki/John_Denver",
+        "born" : 1943,
+        "alive" : false,
+        "place of birth" : "Roswell, New Mexico, United States",
+        "cause of death" : "plane crash",
+        "occupation" : "singer-songwriter",
+        "best songs" : ["Annie's Song","Rocky Mountain High","Sunshine On My Shoulders"],
+        "husband" : null,
+        "net worth" : 60000000.0,
+    }   
 }   
