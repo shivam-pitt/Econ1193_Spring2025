@@ -141,6 +141,6 @@
         "occupation" : "singer-songwriter",
         "best songs" : ["Annie's Song","Rocky Mountain High","Sunshine On My Shoulders"],
         "husband" : null,
-        "kids" : ("Zachary", "Anna Kate", "Jesse Belle"),
+        "net worth" : 60000000.0,
     }   
 }   
