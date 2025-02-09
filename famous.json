@@ -177,5 +177,14 @@
             "married": false,
             "website": "theweeknd.com",
             "Most famous song": "Blinding Lights"
+    },
+    "Eric_Cantona" : {
+        "full name" : "Eric Daniel Pierre Cantona",
+        "nickname" : "King Eric",
+        "wikipedia" : "https://en.wikipedia.org/wiki/Eric_Cantona",
+        "born" : 1966,
+        "place of birth" : "Marseille, France",
+        "profession" : "Soccer Player",
+        "teams" : ["Auxerre", "Martigues", "Marseille", "Bordeaux", "Montpellier", "Nîmes", "Leeds United", "Manchester United"] 
     }
 }   
