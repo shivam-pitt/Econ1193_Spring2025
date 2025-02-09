@@ -154,5 +154,15 @@
         "best songs" : ["Annie's Song","Rocky Mountain High","Sunshine On My Shoulders"],
         "husband" : null,
         "net worth" : 60000000.0,
-    }   
+    },
+    "Nas" : {
+        "full name" : "Nasir bin Olu Dara Jones",
+        "wikipedia" : "https://en.wikipedia.org/wiki/Nas",
+        "born" : 1973,
+        "place of birth" : "Brooklyn, New York City, New York",
+        "occupation" : "Rapper",
+        "best albums" : ["Illmatic", "It Was Written", "King's Disease II", "Magic"],
+        "wife" : null,
+        "studio albums" : 17,
+    }
 }   
