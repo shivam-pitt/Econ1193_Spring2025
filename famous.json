@@ -194,5 +194,16 @@
         "team": "Pittsburgh Penguins",
         "championships": ["Stanley Cup (2009, 2016, 2017)", "Olympic Gold Medal (2010, 2014)"],
         "fun_fact": "Scored the 'Golden Goal' in the 2010 Winter Olympics"
+     },
+    "Hurts" : {
+        "full name": "Jalen Hurts",
+        "born": "1998-08-07",
+        "place of birth": "Houston, TX",
+        "sport": "Football",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+        "position": "Quarterback"
+        "team": "Philadelphia Eagles",
+        "championships": ["Superbowl (2025)"],
+        "fun_fact": "He can bench 500lbs!"
     }
 }   
