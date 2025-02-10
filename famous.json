@@ -186,5 +186,13 @@
         "place of birth" : "Marseille, France",
         "profession" : "Soccer Player",
         "teams" : ["Auxerre", "Martigues", "Marseille", "Bordeaux", "Montpellier", "Nîmes", "Leeds United", "Manchester United"] 
-    }
+    },
+    "Sid" : {
+        "full name": "Sidney Crosby",
+        "born": "1987-08-07",
+        "sport": "Ice Hockey",
+        "team": "Pittsburgh Penguins",
+        "championships": ["Stanley Cup (2009, 2016, 2017)", "Olympic Gold Medal (2010, 2014)"],
+        "fun_fact": "Scored the 'Golden Goal' in the 2010 Winter Olympics"
+}
 }   
