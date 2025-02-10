@@ -120,7 +120,7 @@
             "latest" : "Fossora",
             "most acclaimed" : "Homogenic"
                     }
-        },
+    },
     "TJ_Watt" : {
         "full name" : "Trent Jordan Watt",
         "wikipedia" : "https://en.wikipedia.org/wiki/T._J._Watt",
@@ -194,5 +194,5 @@
         "team": "Pittsburgh Penguins",
         "championships": ["Stanley Cup (2009, 2016, 2017)", "Olympic Gold Medal (2010, 2014)"],
         "fun_fact": "Scored the 'Golden Goal' in the 2010 Winter Olympics"
-}
+    }
 }   
