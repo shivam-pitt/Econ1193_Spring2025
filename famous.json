@@ -206,4 +206,16 @@
         "championships": ["Superbowl (2025)"],
         "fun_fact": "He can bench 500lbs!"
     }
-}   
+},
+"Lauryn_Hill": {
+    "full name": "Lauryn Noelle Hill",
+    "nickname": "L-Boogie",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lauryn_Hill",
+    "born" "1975-05-26",
+    "place of birth": "East Orange, New Jersey, USA",
+    "profession": "Singer, Rapper, Songwriter, Actress", 
+    "groups": "Fugees",
+    "notable_albums": "The Miseducation of Lauryn Hill",
+    "awards": "Grammy Awards (1999) - Album of the Year", "Best R&B Album", "Best Female R&B Vocal Performance", "Best R&B Song"
+    }
+}
