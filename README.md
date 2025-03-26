@@ -16,5 +16,8 @@ Teaching Goals:
 - [ ] Demand estimation
 
 
-Useful links:
+**Useful links:**
+
 [BLS tutorial](https://www.bls.gov/help/hlpforma.htm)
+
+[Collect APIs](https://collectapi.com/)
