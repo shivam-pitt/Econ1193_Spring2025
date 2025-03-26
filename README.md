@@ -21,3 +21,5 @@ Teaching Goals:
 [BLS tutorial](https://www.bls.gov/help/hlpforma.htm)
 
 [Collect APIs](https://collectapi.com/)
+
+[EIA.gov](https://www.eia.gov/opendata/documentation.php)
