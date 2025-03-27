@@ -2,7 +2,6 @@ import os
 import json
 import requests
 import pandas as pd
-import typing
 from matplotlib import pyplot as plt
 
 def readJSONfile(fname):
@@ -179,7 +178,10 @@ def multiSeries(varList, myKey, first='2018', last='2023',*,verbose=True):
 
     return new_df
 
-def fetch_bls_data(myKey: str, series_ids: list[str], start: str, end: str) -> dict:
+def fetch_bls_data(myKey: str, 
+                   series_ids: list[str], 
+                   start: str, end: str) -> dict:
+    
     base_url = 'https://api.bls.gov/publicAPI/v2/timeseries/data/'
     headers = {'Content-type': 'application/json'}
     parameters = {
@@ -200,7 +202,9 @@ def fetch_bls_data(myKey: str, series_ids: list[str], start: str, end: str) -> d
         raise ValueError("Invalid API response format")
     return json_data['Results']['series']
 
-def parse_series_data(series_data: list[dict], seriesDict: dict[str, str], verbose: bool = False) -> pd.DataFrame:
+def parse_series_data(series_data: list[dict], 
+                      seriesDict: dict[str, str], 
+                      verbose: bool = False) -> pd.DataFrame:
     df = pd.DataFrame(columns=['year', 'period'])
     for series in series_data:
         series_id = series.get('seriesID', 'Unknown')
@@ -214,14 +218,19 @@ def parse_series_data(series_data: list[dict], seriesDict: dict[str, str], verbo
         df = df.merge(current_df, on=['year', 'period'], how='outer')
     return df.rename(columns=seriesDict)
 
-def prepare_dataframe(df: pd.DataFrame, target_col: str) -> pd.DataFrame:
+def prepare_dataframe(df: pd.DataFrame, 
+                      target_col: str, 
+                      freq=12) -> pd.DataFrame:
+    
     df['month'] = df['period'].apply(lambda x: int(x.replace('M', '')))
     df['time_label'] = df['year'].astype(str) + '-' + df['month'].astype(str)
     df = df.sort_values(by=['year', 'month'])
-    df['change'] = df[target_col].pct_change(periods=12) * 100
+    df['change'] = df[target_col].pct_change(periods=freq) * 100
     return df
 
-def plot_changes(df: pd.DataFrame, label: str):
+def plot_changes(df: pd.DataFrame, 
+                 label: str):
+    
     plt.figure(figsize=(12, 5))
     plt.plot(df['time_label'], df['change'], label=label, marker='o', linestyle='-')
     plt.gca().set_facecolor((0.7, 0.85, 1, 0.2))
@@ -249,9 +258,13 @@ def plot_changes(df: pd.DataFrame, label: str):
                 ha='left', fontsize=10, style='italic')
     plt.show()
 
-def BLS(myKey: str, seriesDict: dict[str, str] = {"CUUR0000SA0": "CPI-U"}, *, 
-        first: str = '2020', last: str = '2025', 
-        verbose: bool = False, display: bool = False) -> pd.DataFrame | None:
+def BLS(myKey: str, 
+        seriesDict: dict[str, str] = {"CUUR0000SA0": "CPI-U"}, *, 
+        first: str = '2020', 
+        last: str = '2025', 
+        frequency="m",
+        verbose: bool = False, 
+        display: bool = False) -> pd.DataFrame | None:
     """
     Fetches and optionally plots time series data from the U.S. Bureau of Labor Statistics (BLS) API.
 
@@ -279,7 +292,13 @@ def BLS(myKey: str, seriesDict: dict[str, str] = {"CUUR0000SA0": "CPI-U"}, *,
 
     series_data = fetch_bls_data(myKey, series_ids, first, last)
     df = parse_series_data(series_data, seriesDict, verbose)
-    df = prepare_dataframe(df, target_col)
+
+    if frequency == 'q':
+        freq = 4
+    else:
+        freq = 12
+    
+    df = prepare_dataframe(df, target_col,freq=freq)
     
     if display:
         plot_changes(df, target_col)
