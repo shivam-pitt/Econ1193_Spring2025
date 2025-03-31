@@ -23,3 +23,5 @@ Teaching Goals:
 [Collect APIs](https://collectapi.com/)
 
 [EIA.gov](https://www.eia.gov/opendata/documentation.php)
+
+[Census API](https://www.census.gov/data/developers/data-sets.html)
